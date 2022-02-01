@@ -2,9 +2,13 @@
   box-sizing: border-box;
 }
 
+head {
+ color: #777;
+}
+
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: Segoe UI;
 }
 
 a {
@@ -17,15 +21,15 @@ a {
 
 .container {
   max-width: 1170px;
-  padding: 0 15px;
+  padding: 0 1px;
   margin: 0 auto;
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  padding: 156px 0 198px 0;
+  background-image: url(https://raw.githubusercontent.com/AhsaniHalwanRajib/ahsanirajib/main/Top.jpg);
   background-size: cover;
-  color: white;
+  color: ;
   text-align: center;
 }
 
@@ -48,19 +52,6 @@ a {
 
 .btn-wrapper p {
   margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
 }
 
 .btn {
@@ -163,7 +154,7 @@ header {
   display: inline-block;
   margin-top: 15px;
   font-size: 15px;
-  color: #b3aeb5;
+  color: #b3AEB5;
 }
 
 .heading h3 {
@@ -178,19 +169,16 @@ header {
 
 .message {
   padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+  background-color:	#6A5ACD;
 }
 
 .message:active {
-  position: relative;
   top: 7px;
   box-shadow: none;
 }
 
 footer img {
-  width: 125px;
+  width: 176px;
 }
 
 footer p {
