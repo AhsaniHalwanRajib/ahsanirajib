@@ -8,7 +8,7 @@ head {
 
 body {
   margin: 0;
-  font-family: Segoe UI;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 a {
@@ -23,13 +23,13 @@ a {
   max-width: 1170px;
   padding: 0 1px;
   margin: 0 auto;
+  
 }
 
 .top-wrapper {
   padding: 156px 0 198px 0;
   background-image: url(https://raw.githubusercontent.com/AhsaniHalwanRajib/ahsanirajib/main/Top.jpg);
   background-size: cover;
-  color: ;
   text-align: center;
 }
 
@@ -43,6 +43,7 @@ a {
 .top-wrapper p {
   opacity: 0.7;
   margin-bottom: 3px;
+
 }
 
 .btn-wrapper {
@@ -90,17 +91,18 @@ header {
 }
 
 .header-right {
-  float: right;
+  float: center;
   margin-right: -25px;
 }
 
 .header-right a {
-  line-height: 65px;
+  line-height: 66px;
   padding: 0 25px;
   color: white;
   display: block;
-  float: left;
+  float: right;
   transition: all 0.5s;
+
 }
 
 .header-right a:hover {
@@ -127,15 +129,20 @@ header {
   padding-top: 80px;
   padding-bottom: 50px;
   color: #5f5d60;
+  font-size: 25;
 }
 
 .heading h2 {
-  font-weight: normal;
+  font-weight: bold;
+  background: -webkit-linear-gradient(1deg, #EE51FF, #51E2FF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+
 }
 
 .lesson {
   float: left;
   width: 25%;
+  font-weight: bold;
+  background: -webkit-linear-gradient(1deg, #EE51FF, #51E2FF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
 }
 
 .lesson-icon {
@@ -147,6 +154,11 @@ header {
   top: 44%;
   width: 100%;
   color: white;
+}
+
+.lesson_2 {
+  font-weight: bold;
+  background: -webkit-linear-gradient(1deg, #EE51FF, #51E2FF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
 }
 
 .text-contents {
@@ -161,10 +173,55 @@ header {
   font-weight: normal;
 }
 
+.tbl-download { 
+  background-color:	#83B2FF;
+  font-weight: bold;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.tbl-download:hover {
+  cursor: pointer;
+  background: #CDE0FF;
+  color: #83B2FF;
+}
+
+.tbl-download_2 { 
+  background-color: #36FF90;
+  font-weight: bold;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.tbl-download_2:hover {
+  cursor: pointer;
+  background: #CCFFDE;
+  color: #36FF90;
+}
+
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
+}
+
+.heading_2 {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading_2 h2 {
+  font-weight: normal;
+}
+
+.heading_h h2 ,span {
+  background: -webkit-linear-gradient(0deg, #fE11FF, #ff226f);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 .message {
@@ -188,5 +245,5 @@ footer p {
 
 footer {
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: px;
 }
