@@ -31,6 +31,7 @@ a {
   background-image: url(https://raw.githubusercontent.com/AhsaniHalwanRajib/ahsanirajib/main/Top.jpg);
   background-size: cover;
   text-align: center;
+  font-family: sans-serif;
 }
 
 .top-wrapper h1 {
@@ -75,7 +76,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(255, 250, 240);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -97,8 +98,9 @@ header {
 
 .header-right a {
   line-height: 66px;
+  font-weight: bold;
   padding: 0 25px;
-  color: white;
+  background: -webkit-linear-gradient(1111111deg, #EE51FF, #51E2FF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
   display: block;
   float: right;
   transition: all 0.5s;
@@ -178,8 +180,10 @@ header {
   font-weight: bold;
   color: white;
   padding: 15px 40px;
-  border-radius: 5px;
+  border-radius: 99px;
   display: inline-block;
+  margin-right: 26px;
+  transition: all 0.3s;
 }
 
 .tbl-download:hover {
@@ -193,8 +197,9 @@ header {
   font-weight: bold;
   color: white;
   padding: 15px 40px;
-  border-radius: 5px;
+  border-radius: 99px;
   display: inline-block;
+  transition: all 0.3s;
 }
 
 .tbl-download_2:hover {
@@ -246,4 +251,51 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: px;
+}
+
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  .heading h2 {
+    font-size: 20px;
+  }
+  .lesson {
+   width: 50%;
+   margin-bottom: 50px;
+   }
+}
+@media all and (max-width: 670px) {
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .top-wrapper h1 {            
+    font-size: 24px;            
+    line-height: 36px;            
+  }            
+  .top-wrapper p {            
+    font-size: 14px;            
+    line-height: 20px;            
+  }
+  .lesson {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
 }
