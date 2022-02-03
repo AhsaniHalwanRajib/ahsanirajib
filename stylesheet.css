@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
 }
@@ -8,7 +9,7 @@ head {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 
 a {
@@ -21,7 +22,7 @@ a {
 
 .container {
   max-width: 1170px;
-  padding: 0 1px;
+  padding: 0 15px;
   margin: 0 auto;
   
 }
@@ -31,7 +32,7 @@ a {
   background-image: url(https://raw.githubusercontent.com/AhsaniHalwanRajib/ahsanirajib/main/Top.jpg);
   background-size: cover;
   text-align: center;
-  font-family: sans-serif;
+  color: white;
 }
 
 .top-wrapper h1 {
@@ -76,7 +77,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(255, 250, 240);
+  background-color: white;
   position :fixed;
   top: 0;
   z-index: 10;
@@ -100,7 +101,7 @@ header {
   line-height: 66px;
   font-weight: bold;
   padding: 0 25px;
-  background: -webkit-linear-gradient(1111111deg, #EE51FF, #51E2FF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(1deg, #EE51FF, #51E2FF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
   display: block;
   float: right;
   transition: all 0.5s;
@@ -117,6 +118,64 @@ header {
   font-size: 25px;
   padding: 21px 0;
   display: none;
+}
+
+.tbl-download_2 old { 
+  font-weight: BOLD;
+  background: linear-gradient(135deg, #EE51FF, #51E2FF);
+  border-radius: 50px;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 99px;
+  display: inline-block;
+  margin-top: 30px;
+  transition: .7s ease;
+}
+
+.tbl-download_2 old :hover {
+  cursor: pointer;
+  background: linear-gradient(135deg, #F7A9FF, #A1EFFF);
+  color: #FFFFFF;
+  transition: .5s ease;
+}
+
+.tbl-download_2 {
+  border-radius: 4px;
+  background-color: #4CAF50;
+  border-radius: 50px;
+  color: white;
+  padding: 15px 40px;
+  width: 200px;
+  transition: all 0.5s;
+  margin-top: 30px;
+  cursor: pointer;
+  display: inline-block;
+  background: linear-gradient(135deg, #F7A9FF, #A1EFFF);
+}
+
+.tbl-download_2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.tbl-download_2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.tbl-download_2:hover span {
+  padding-right: 25px;
+}
+
+.tbl-download_2:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .lesson-wrapper {
@@ -137,7 +196,12 @@ header {
 .heading h2 {
   font-weight: bold;
   background: -webkit-linear-gradient(1deg, #EE51FF, #51E2FF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+}
 
+.heading p {
+  font-weight: bold;
+  background: -webkit-linear-gradient(1deg, #EE51FF, #51E2FF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+  margin-bottom: 121pt;
 }
 
 .lesson {
@@ -160,7 +224,6 @@ header {
 
 .lesson_2 {
   font-weight: bold;
-  background: -webkit-linear-gradient(1deg, #EE51FF, #51E2FF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
 }
 
 .text-contents {
@@ -175,38 +238,7 @@ header {
   font-weight: normal;
 }
 
-.tbl-download { 
-  background-color:	#83B2FF;
-  font-weight: bold;
-  color: white;
-  padding: 15px 40px;
-  border-radius: 99px;
-  display: inline-block;
-  margin-right: 26px;
-  transition: all 0.3s;
-}
 
-.tbl-download:hover {
-  cursor: pointer;
-  background: #CDE0FF;
-  color: #83B2FF;
-}
-
-.tbl-download_2 { 
-  background-color: #36FF90;
-  font-weight: bold;
-  color: white;
-  padding: 15px 40px;
-  border-radius: 99px;
-  display: inline-block;
-  transition: all 0.3s;
-}
-
-.tbl-download_2:hover {
-  cursor: pointer;
-  background: #CCFFDE;
-  color: #36FF90;
-}
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
@@ -222,11 +254,6 @@ header {
 
 .heading_2 h2 {
   font-weight: normal;
-}
-
-.heading_h h2 ,span {
-  background: -webkit-linear-gradient(0deg, #fE11FF, #ff226f);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
-  font-weight: bold;
 }
 
 .message {
