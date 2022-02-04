@@ -226,6 +226,11 @@ header {
   font-weight: bold;
 }
 
+.lesson-icon_2 {
+  position: relative;
+  margin: 0;
+}
+
 .text-contents {
   width: 80%;
   display: inline-block;
@@ -280,6 +285,66 @@ footer {
   padding-bottom: px;
 }
 
+.link-shortcut-github {
+  font-weight: bold;
+  color: 	#696969;
+  padding: 10px 0px;
+  display: inline-block;
+  margin-top: 2px;
+  transition: all 0.3s;
+}
+
+.link-shortcut-github:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+
+.link-shortcut-facebook {
+  font-weight: bold;
+  color: 	#696969;
+  padding: 10px 0px;
+  display: inline-block;
+  margin-top: 2px;
+  transition: all 0.3s;
+}
+
+.link-shortcut-facebook:hover {
+  cursor: pointer;
+  background: white;
+  color: #0000CD;
+}
+
+.link-shortcut-twitter {
+  font-weight: bold;
+  color: 	#696969;
+  padding: 10px 0px;
+  display: inline-block;
+  margin-top: 2px;
+  transition: all 0.3s;
+}
+
+.link-shortcut-twitter:hover {
+  cursor: pointer;
+  background: white;
+  color: #1E90FF;
+}
+
+.link-shortcut-google {
+  font-weight: bold;
+  color: 	#696969;
+  padding: 10px 0px;
+  display: inline-block;
+  margin-top: 2px;
+  transition: all 0.3s;
+}
+
+.link-shortcut-google:hover {
+  cursor: pointer;
+  background: white;
+  color: #B22222;
+}
+
 @media all and (max-width: 1000px) {
   .top-wrapper h1 {
     font-size: 32px;
@@ -323,6 +388,6 @@ footer {
     width: 100%;
   }
   footer {
-    text-align: center;
+    text-align: right;
   }
 }
