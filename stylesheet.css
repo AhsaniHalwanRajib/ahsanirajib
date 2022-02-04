@@ -101,15 +101,39 @@ header {
   line-height: 66px;
   font-weight: bold;
   padding: 0 25px;
-  background: -webkit-linear-gradient(1deg, #EE51FF, #51E2FF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(1deg, #E819FF, #11E2FF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
   display: block;
   float: right;
   transition: all 0.5s;
 
 }
-
+ 
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
+  background: -webkit-linear-gradient(1deg, #E819FF, #11E2FF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+  transition: all 0.5s;
+}
+
+.header-right_2 {
+  float: center;
+  margin-right: -25px;
+}
+
+.header-right_2 a {
+  line-height: 66px;
+  font-weight: bold;
+  padding: 0 25px;
+  background: -webkit-linear-gradient(1deg, #f27dff, #83f0ff);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+  display: block;
+  float: right;
+  transition: all 0.5s;
+
+}
+ 
+.header-right_2 a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  background: -webkit-linear-gradient(1deg, #E819FF, #11E2FF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+  transition: all 0.5s;
 }
 
 .menu-icon{
@@ -296,7 +320,6 @@ footer {
 
 .link-shortcut-github:hover {
   cursor: pointer;
-  background: white;
   color: black;
 }
 
@@ -311,7 +334,6 @@ footer {
 
 .link-shortcut-facebook:hover {
   cursor: pointer;
-  background: white;
   color: #0000CD;
 }
 
@@ -326,23 +348,21 @@ footer {
 
 .link-shortcut-twitter:hover {
   cursor: pointer;
-  background: white;
   color: #1E90FF;
 }
 
-.link-shortcut-google {
+.link-shortcut-instagram {
   font-weight: bold;
-  color: 	#696969;
+  color: #696969;
   padding: 10px 0px;
   display: inline-block;
   margin-top: 2px;
   transition: all 0.3s;
 }
 
-.link-shortcut-google:hover {
+.link-shortcut-instagram:hover {
   cursor: pointer;
-  background: white;
-  color: #B22222;
+  color:  #FF00FF;
 }
 
 @media all and (max-width: 1000px) {
