@@ -407,6 +407,9 @@ footer {
   .lesson {
     width: 100%;
   }
+  .lesson_2 img {
+    width: 100;
+  }
   footer {
     text-align: right;
   }
