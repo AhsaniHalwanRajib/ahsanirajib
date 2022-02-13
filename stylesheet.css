@@ -376,6 +376,9 @@ footer {
    width: 50%;
    margin-bottom: 50px;
    }
+    .lesson-icon_2 img {
+  width: 550px;
+}
 }
 @media all and (max-width: 670px) {
   
@@ -388,7 +391,7 @@ footer {
   }
   
   .top-wrapper {
-    text-align: left;
+    text-align: center;
   }
   .header-right {
     display: none;
@@ -407,9 +410,9 @@ footer {
   .lesson {
     width: 100%;
   }
-  .lesson_2 img {
-    width: 100;
-  }
+  .lesson-icon_2 img {
+  width: 315px;
+}
   footer {
     text-align: right;
   }
