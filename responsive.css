@@ -47,6 +47,61 @@
     width: 270px;
     
   }
+  
+	nav {
+  		height: auto;
+  		border-bottom: 0;
+
+
+  	}
+
+  	nav ul {
+  		width: 100%;
+  		display: none;
+  		height: auto;
+  	}
+
+  	nav li {
+  		width: 100%;
+  		float: none;
+  		display: block;
+  		background: #ffffff;
+
+  	}
+
+  	nav li a {
+		border-bottom: 1px solid #f0f0f0;
+		border-right: 90px solid #f0f0f0;
+
+	}
+
+  	nav a {
+	  	text-align: center;
+	  	width: 100%;
+	  	text-indent: 25px;
+	  	color: #333333;
+  	}
+  
+  	nav a#pull {
+		display: block;
+		background-color: #3498db;
+		width: 100%;
+		position: relative;
+		color: #ffffff;
+
+	}
+
+	nav a#pull:after {
+		content:"";
+		background: url('https://github.com/AhsaniHalwanRajib/ahsanirajib/blob/main/resources_files/responsive_bar-button.png?raw=true') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+  
   footer {
     text-align: left;
   }
