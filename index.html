@@ -8,23 +8,6 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="stylesheet" type="text/css" href="responsive.css">
   <link rel="shortcut icon" href="dark_lin-icon[center].png" >
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script>
-		$(function() {
-			var pull= $('#pull');
-				menu= $('nav ul');
-			$(pull).on('click', function(e) {
-				e.preventDefault();
-				menu.slideToggle();
-			});
-			$(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 600 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
-        		}
-    		});
-		});
-	</script>
 </head>
 <body>
     <header>
@@ -32,13 +15,24 @@
         <div class="header-left">
            <img class="logo" src="https://github.com/AhsaniHalwanRajib/ahsanirajib/blob/main/resources_files/lin-icon_dark.png?raw=true">
         </div>
-        <nav class="clearfix">
-           <a href="#" id="pull">‎ </a>
-          <ul class="clearfix">
+        <div class="wrapper">
+    <nav>
+      <div class="container-flex">
+         <div class="burger">
+            <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+         </div>
+         <div class="bg-sidebar"></div>
+         <ul class="sidebar">
             <li><a href="#"><i class="fa fa-home"></i>Beranda</a></li>
             <li><a href="login-pages/index.html"><i class="fa fa-user"></i>Profil</a></li>
             <li><a href="#"><i class="fa fa-github"></i>Blog</a></li>
-        </ul>
+         </ul>
+      </div>
+    </nav>
+  </div>
+<script src="navigasi.js"></script>
       </div>
     </header>
     <div class="top-wrapper">
